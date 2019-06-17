@@ -1,0 +1,49 @@
+name = "Blackburn"
+license = "MIT"
+licenselink = "https://github.com/yoshiharuyamashita/blackburn/blob/master/LICENSE.md"
+description = "A clear, responsive theme constructed using Pure CSS from Yahoo"
+homepage = "https://github.com/yoshiharuyamashita/blackburn"
+tags = ["blog", "personal", "purecss", "responsive"]
+features = ["blog", "personal", "purecss", "responsive"]
+min_version = 0.15
+
+[author]
+  name = "Yoshiharu Yamashita"
+  homepage = "http://yoshiharuyamashita.com"
+
+# If porting an existing theme
+[original]
+  name = "Responsive side menu"
+  homepage = "http://purecss.io/layouts/"
+  repo = "https://github.com/yahoo/pure"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+  
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/contact/"
+	
